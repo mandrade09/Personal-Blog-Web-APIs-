@@ -72,3 +72,17 @@
   footer a:hover {
     text-decoration: underline;
   }
+
+  // Get existing blog posts from localStorage or create an empty array
+  let posts = JSON.parse(localStorage.getItem('posts')) || [];
+  
+  // Add new post to the array
+  posts.push(post);
+  
+  // Save updated array back to localStorage
+  localStorage.setItem('posts', JSON.stringify(posts));
+
+  // Redirect user to blog page
+  window.location.href = 'blog.html';
+
+});

@@ -4,7 +4,7 @@
 const toggleMode = document.getElementById('toggle-mode');
 
 
-// I received help from a TA for this function:
+// I received help from a TA for this event listener function:
 
 toggleMode.addEventListener('change', function () {
   const isChecked = this.checked;
