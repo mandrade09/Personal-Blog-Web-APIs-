@@ -1,11 +1,11 @@
 /* Universal Selector */
 * {
-  margin:0;
-  padding:0; 
-  box-sizing: border-box; 
-  font-family: 'Merriweather', 'Cambria', 'Georgia'; 
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', 'Cambria', 'Georgia';
 }
+
 
 /* Element Selectors */
 body {
@@ -14,18 +14,19 @@ body {
   font-size: 20px;
   background-color: #fafafa;
   color: #1d3c53;
-
-
 }
+
 
 h1,
 h2 {
   margin: 20px;
 }
 
+
 main {
   padding: 60px 0;
 }
+
 
 li {
   display: inline;
@@ -33,10 +34,12 @@ li {
   text-decoration: none;
 }
 
+
 a {
   text-decoration: none;
   color: #fafafa;
 }
+
 
 header,
 footer {
@@ -45,11 +48,12 @@ footer {
   background-color: #1e283c;
 }
 
+
 header {
   position: fixed;
   height: 80px;
   border-bottom: 8px solid #1d3c53;
-  z-index: 1000; 
+  z-index: 1000;
   background-image: linear-gradient(360deg, #1e283c, #343e55);
 }
 
@@ -60,8 +64,8 @@ header {
   cursor: pointer;
   padding: 10px;
   font-size: 22px;
-  
 }
+
 
 .header-navigate-right ul a:hover {
   background-color: rgba(54, 66, 92, .3);
@@ -71,38 +75,56 @@ header {
 .blog-posts-archive-header {
   text-align: center;
   font-size: 200%;
-  padding-top: 40px;
- }
-
- .main-page-content {
-  display: flex;
-  justify-content: space-evenly;
- }
+  padding-top: 10px;
+}
 
 
-  
-  .back-btn {
-    padding: 10px 20px;
-    background-color: #1d3c53;
-    color: #fafafa;
-    text-decoration: none;
-    border-radius: 4px;
-    margin: 10px;
-  }
-  
-  .back-btn:hover {
-    background-color: #3d7cad;
-  }
-  
-  
-  .post {
-    margin-bottom: 20px;
-  }
-  
-  .post h2 {
-    margin-bottom: 10px;
-  }
-  
-  .post p {
-    margin-bottom: 10px;
-  }
+.container p {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+.back-btn {
+  padding: 10px 20px;
+  background-color: #1d3c53;
+  color: #fafafa;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+
+.back-btn:hover {
+  background-color: #3d7cad;
+  cursor: pointer;
+}
+
+
+.dark-mode {
+  background-color: #1e283c;
+  color: white;
+}
+
+
+.toggle-container {
+  text-align: right;
+  margin: 20px;
+}
+
+
+.post {
+  margin-bottom: 25px;
+}
+
+.post h3 {
+  margin-bottom: 10px;
+}
+
+.post p {
+  margin-bottom: 10px;
+}
+
+.developer-portfolio {
+  padding: 15px;
+}

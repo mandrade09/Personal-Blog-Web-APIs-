@@ -1,4 +1,9 @@
+
+// WHEN I submit the form, THEN blog post data is stored to localStorage.
+
+
 const blogForm = document.getElementById('blog-form');
+
 
 blogForm.addEventListener('submit', function(event) {
   event.preventDefault();
