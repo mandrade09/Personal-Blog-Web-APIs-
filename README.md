@@ -89,8 +89,8 @@ Thanks for visiting!
 If you would like to learn more, or contact me, feel free to reach me at the following:
 
 <ul>
-    <li>Webpage URL: </li>
-    <li>GitHub URL: </li>
+    <li>Webpage URL: https://mandrade09.github.io/Personal-Blog-Web-APIs-/</li>
+    <li>GitHub URL: https://github.com/mandrade09/Personal-Blog-Web-APIs-</li>
     <li>E-mail: mattandrade09@gmail.com</li>
     <li>Phone: 310.903.9150</li>
 </ul>
