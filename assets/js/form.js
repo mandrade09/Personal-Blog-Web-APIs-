@@ -32,7 +32,7 @@ blogForm.addEventListener('submit', function(event) {
 
   // blog post data is stored to localStorage
   
-  let posts = JSON.parse(localStorage.getItem('posts'));
+  let posts = JSON.parse(localStorage.getItem('posts')) || [];
   
   posts.push(post);
   
